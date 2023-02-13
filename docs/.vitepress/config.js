@@ -10,8 +10,46 @@ export default {
       appId: "FRTY16QQO9", // 需要替换
       apiKey: "3ca62b4f61d2f7ec5634e0b6f82aaf8f", // 需要替换
       indexName: "web-search", // 需要替换
-      placeholder: "请输入关键词",
-      buttonText: "搜索",
+      buttonText: "搜索文档",
+      placeholder: "搜索文档",
+      translations: {
+        button: {
+          buttonText: "搜索文档",
+          buttonAriaLabel: "搜索文档",
+        },
+        modal: {
+          searchBox: {
+            resetButtonTitle: "清除查询条件",
+            resetButtonAriaLabel: "清除查询条件",
+            cancelButtonText: "取消",
+            cancelButtonAriaLabel: "取消",
+          },
+          startScreen: {
+            recentSearchesTitle: "搜索历史",
+            noRecentSearchesText: "没有搜索历史",
+            saveRecentSearchButtonTitle: "保存至搜索历史",
+            removeRecentSearchButtonTitle: "从搜索历史中移除",
+            favoriteSearchesTitle: "收藏",
+            removeFavoriteSearchButtonTitle: "从收藏中移除",
+          },
+          errorScreen: {
+            titleText: "无法获取结果",
+            helpText: "你可能需要检查你的网络连接",
+          },
+          footer: {
+            selectText: "选择",
+            navigateText: "切换",
+            closeText: "关闭",
+            searchByText: "搜索提供者",
+          },
+          noResultsScreen: {
+            noResultsText: "无法找到相关结果",
+            suggestedQueryText: "你可以尝试查询",
+            reportMissingResultsText: "你认为该查询应该有结果？",
+            reportMissingResultsLinkText: "点击反馈",
+          },
+        },
+      },
     },
     nav: [
       {
@@ -30,7 +68,11 @@ export default {
         link: "/question/快速开发/HTML.md",
       },
     ],
-    socialLinks: [{ icon: "github", link: "https://github.com/GQ2617" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/GQ2617/web" },
+      { icon: "facebook", link: "https://github.com/GQ2617/web" },
+      { icon: "twitter", link: "https://github.com/GQ2617/web" },
+    ],
 
     sidebar: {
       "/tools/": [
@@ -133,27 +175,6 @@ export default {
           ],
         },
         {
-          text: "前端进阶",
-          items: [
-            {
-              text: "HTTP",
-              link: "/interview/前端进阶/HTTP.md",
-            },
-            {
-              text: "Node",
-              link: "/interview/前端进阶/Node.md",
-            },
-            {
-              text: "移动端",
-              link: "/interview/前端进阶/移动端.md",
-            },
-            {
-              text: "性能",
-              link: "/interview/前端进阶/性能.md",
-            },
-          ],
-        },
-        {
           text: "前端框架",
           items: [
             {
@@ -171,6 +192,31 @@ export default {
             {
               text: "微信小程序",
               link: "/interview/前端框架/微信小程序.md",
+            },
+          ],
+        },
+        {
+          text: "前端进阶",
+          items: [
+            {
+              text: "HTTP",
+              link: "/interview/前端进阶/HTTP.md",
+            },
+            {
+              text: "浏览器",
+              link: "/interview/前端进阶/浏览器.md",
+            },
+            {
+              text: "Node",
+              link: "/interview/前端进阶/Node.md",
+            },
+            {
+              text: "移动端",
+              link: "/interview/前端进阶/移动端.md",
+            },
+            {
+              text: "性能",
+              link: "/interview/前端进阶/性能.md",
             },
           ],
         },

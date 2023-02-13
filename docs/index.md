@@ -17,7 +17,7 @@ hero:
       link: /interview/前端基础/HTML.md
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://gitee.com/geeksdidi/Fly-Designui
+      link: https://github.com/GQ2617/web
 
 features:
   - icon: 💡

@@ -1,4 +1,4 @@
-<!-- # JavaScript
+# JavaScript
 
 ## 01-数据类型和存储上的差别
 
@@ -17,8 +17,8 @@
 ## 02-typeof与instanceof
 
 1. 概述：
-   1. typeof一般是用来判断变量是否存在，[返回它的类型]()，其中基本数据类型null返回的是一个object，但null不属于引用类型，typeof除了判断function函数会识别，其他的引用类型输出均为object
-   2. instanceof主要用于判断一个实例是否属于某种类型，可以用来判断引用数据类型，但不能正确判断基本数据类型，根据在原型链中查找判断当前数据的原型对象是否存在[返回布尔类型]()
+   1. typeof一般是用来判断变量是否存在，返回它的类型，其中基本数据类型null返回的是一个object，但null不属于引用类型，typeof除了判断function函数会识别，其他的引用类型输出均为object
+   2. instanceof主要用于判断一个实例是否属于某种类型，可以用来判断引用数据类型，但不能正确判断基本数据类型，根据在原型链中查找判断当前数据的原型对象是否存在返回布尔类型
 2. 使用
    1. typeof a !=="undefined" 判断变量a是否存在
    2. person instanceof Person 判断person实例对象是否是构造函数Person生成的对象
@@ -78,7 +78,7 @@
 4. 总结
    1. 一切对象都是继承自Object对象，Object对象直接继承自根源对象null
    2. 一切的函数对象，都是继承自Function对象，Object对象直接继承自Function对象
-   3. Function对象的 _proto_ 会指向自己的原型对象，最终还是继承自Object对象
+   3. Function对象的 `_proto_` 会指向自己的原型对象，最终还是继承自Object对象
 
 ## 06-闭包
 
@@ -120,7 +120,7 @@
 1. 遍历方法
    1. map：映射数组，得到一个映射之后的新数组
    2. filter：筛选数组，返回一个新数组
-   3. forEach：遍历数组，操作会[影响原数组]()
+   3. forEach：遍历数组，操作会影响原数组
    4. some：判断数组中是否有元素满足条件，返回布尔值
    5. every：判断数组中所有元素是否满足条件，返回布尔值
    6. findIndex：查找元素下标
@@ -451,4 +451,4 @@
    - call和bind是列表传参，apply是数组或伪数组传参
 
 
- -->
+

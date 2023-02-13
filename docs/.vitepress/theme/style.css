@@ -4,6 +4,9 @@
     --vp-c-bg-alt: #ffffff;
     --vp-c-green-dark: #14cfff;
     --vp-c-green-darker: #14cfff;
+    --vp-c-green-light: #14cfff;
+    --vp-c-green-lighter: #14cfff;
+
 }
 .dark{
     --vp-c-bg-alt: #161618;
@@ -17,6 +20,11 @@
     background: #ecf5ff;
     border-radius: 6px;
     padding-left: 15px;
+}
+
+/* 导航条 */
+.VPNav[data-v-1dc81941] {
+    border-bottom: 1px solid #ccc;
 }
 
 
