@@ -9,7 +9,7 @@ export default {
     algolia: {
       appId: "FRTY16QQO9", // 需要替换
       apiKey: "3ca62b4f61d2f7ec5634e0b6f82aaf8f", // 需要替换
-      indexName: "web", // 需要替换
+      indexName: "web-search", // 需要替换
       placeholder: "请输入关键词",
       buttonText: "搜索",
     },
