@@ -210,10 +210,10 @@ export default {
               text: "Node",
               link: "/interview/前端进阶/Node.md",
             },
-            {
-              text: "移动端",
-              link: "/interview/前端进阶/移动端.md",
-            },
+            // {
+            //   text: "移动端",
+            //   link: "/interview/前端进阶/移动端.md",
+            // },
             {
               text: "性能",
               link: "/interview/前端进阶/性能.md",
