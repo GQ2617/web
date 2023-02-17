@@ -185,10 +185,10 @@ export default {
               text: "React",
               link: "/interview/前端框架/React.md",
             },
-            // {
-            //   text: "Uniapp",
-            //   link: "/interview/前端框架/Uniapp.md",
-            // },
+            {
+              text: "Uniapp",
+              link: "/interview/前端框架/Uniapp.md",
+            },
             {
               text: "微信小程序",
               link: "/interview/前端框架/微信小程序.md",
