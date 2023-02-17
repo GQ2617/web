@@ -185,10 +185,10 @@ export default {
               text: "React",
               link: "/interview/前端框架/React.md",
             },
-            {
-              text: "Uniapp",
-              link: "/interview/前端框架/Uniapp.md",
-            },
+            // {
+            //   text: "Uniapp",
+            //   link: "/interview/前端框架/Uniapp.md",
+            // },
             {
               text: "微信小程序",
               link: "/interview/前端框架/微信小程序.md",
@@ -206,10 +206,10 @@ export default {
               text: "浏览器",
               link: "/interview/前端进阶/浏览器.md",
             },
-            {
-              text: "Node",
-              link: "/interview/前端进阶/Node.md",
-            },
+            // {
+            //   text: "Node",
+            //   link: "/interview/前端进阶/Node.md",
+            // },
             // {
             //   text: "移动端",
             //   link: "/interview/前端进阶/移动端.md",
