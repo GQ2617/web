@@ -51,8 +51,6 @@
 
    1. 特殊场景钩子函数
 
-      ![image-20221013114029118](C:\Users\75560\AppData\Roaming\Typora\typora-user-images\image-20221013114029118.png)
-
 3. 常用生命周期钩子函数的作用
    1. beforeCreate：通常用于插件开发中执行一些初始化任务
    2. created：组件初始化完毕，可以访问各种数据，获取接口数据等
