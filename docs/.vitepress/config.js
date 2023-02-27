@@ -95,6 +95,10 @@ export default {
           text: "数组相关",
           items: [
             {
+              text: "数组系列方法",
+              link: "/tools/数组相关/数组系列方法.md",
+            },
+            {
               text: "数组去重",
               link: "/tools/数组相关/数组去重.md",
             },
@@ -102,21 +106,10 @@ export default {
               text: "数组合并与切片",
               link: "/tools/数组相关/数组合并与切片.md",
             },
-            {
-              text: "数组分块",
-              link: "/tools/数组相关/数组分块.md",
-            },
+
             {
               text: "数组扁平化",
               link: "/tools/数组相关/数组扁平化.md",
-            },
-            {
-              text: "删除数组中部分元素",
-              link: "/tools/数组相关/删除数组中部分元素.md",
-            },
-            {
-              text: "得到数组中部分元素",
-              link: "/tools/数组相关/得到数组中部分元素.md",
             },
           ],
         },
@@ -136,8 +129,8 @@ export default {
               link: "/tools/对象相关/合并多个对象.md",
             },
             {
-              text: "对象或数组拷贝",
-              link: "/tools/对象相关/对象或数组拷贝.md",
+              text: "深/浅拷贝",
+              link: "/tools/对象相关/深浅拷贝.md",
             },
           ],
         },
