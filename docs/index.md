@@ -1,12 +1,12 @@
 ---
 layout: home
 
-title: 前端知识
+title: Java&Web
 # titleTemplate: 前端知识
 
 hero:
-  name: Web
-  text: 前端知识汇总
+  name: Full Stack
+  text: Java&Web知识汇总
   tagline: 集成面试、工具库、Bug详解，竭诚助力开发者
   image:
     src: /logo.png

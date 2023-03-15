@@ -1,5 +1,5 @@
 export default {
-  title: "web前端",
+  title: "Java&Web",
   base: "/web/",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
 
@@ -53,19 +53,64 @@ export default {
     },
     nav: [
       {
-        text: "💡 面试专题",
-        activeMatch: "/interview",
-        link: "/interview/前端基础/HTML.md",
+        text: "💡 web专题",
+        items: [
+          {
+            text: "💡 面试专题",
+            activeMatch: "/interview",
+            link: "/interview/前端框架/Vue.md",
+          },
+          {
+            text: "📦 函数工具库",
+            activeMatch: "/tools",
+            link: "/tools/函数相关/this指向.md",
+          },
+          {
+            text: "🛠️ 开发问题集合",
+            activeMatch: "/question",
+            link: "/question/框架/Vue.md",
+          },
+        ],
       },
       {
-        text: "📦 函数工具库",
-        activeMatch: "/tools",
-        link: "/tools/函数相关/this指向.md",
+        text: "💡 Java专题",
+        items: [
+          {
+            text: "💡 面试专题",
+            activeMatch: "/interview",
+            link: "/interview_java/Java基础/Java基础.md",
+          },
+          {
+            text: "🛠️ 开发问题集合",
+            activeMatch: "/question",
+            link: "/question_java/Java基础/Java基础.md",
+          },
+        ],
       },
       {
-        text: "🛠️ 开发问题集合",
-        activeMatch: "/question",
-        link: "/question/快速开发/HTML.md",
+        text: "💡 计算机基础",
+        items: [
+          {
+            text: "💡 计算机网络",
+            activeMatch: "/computer",
+            link: "/computer/计算机网络/计算机网络(一).md",
+          },
+          {
+            text: "📦 操作系统",
+            activeMatch: "/computer",
+            link: "/computer/操作系统/操作系统(一).md",
+          },
+          {
+            text: "🛠️ 数据结构及算法",
+            activeMatch: "/computer",
+            link: "/computer/数据结构及算法/哈希.md",
+          },
+          {
+            text: "💡 设计模式",
+            activeMatch: "/computer",
+            link: "/computer/设计模式/设计模式.md",
+          },
+        ],
       },
     ],
     socialLinks: [
@@ -75,6 +120,7 @@ export default {
     ],
 
     sidebar: {
+      // web
       "/tools/": [
         {
           text: "函数相关",
@@ -273,6 +319,204 @@ export default {
             {
               text: "Ant-Design",
               link: "/question/UI库/Ant-Design.md",
+            },
+          ],
+        },
+      ],
+
+      // java
+      "/interview_java": [
+        {
+          text: "Java语言",
+          items: [
+            {
+              text: "基础",
+              link: "/interview_java/Java基础/Java基础.md",
+            },
+            {
+              text: "集合类",
+              link: "/interview_java/Java基础/集合类.md",
+            },
+            {
+              text: "多线程",
+              link: "/interview_java/Java基础/多线程.md",
+            },
+            {
+              text: "IO",
+              link: "/interview_java/Java基础/IO.md",
+            },
+            {
+              text: "JVM",
+              link: "/interview_java/Java基础/JVM.md",
+            },
+          ],
+        },
+        {
+          text: "数据库",
+          items: [
+            {
+              text: "SQL",
+              link: "/interview_java/数据库/SQL.md",
+            },
+            {
+              text: "索引",
+              link: "/interview_java/数据库/索引.md",
+            },
+            {
+              text: "事务",
+              link: "/interview_java/数据库/事务.md",
+            },
+            {
+              text: "优化",
+              link: "/interview_java/数据库/优化.md",
+            },
+          ],
+        },
+        {
+          text: "SSM",
+          items: [
+            {
+              text: "Spring",
+              link: "/interview_java/SSM/Spring.md",
+            },
+            {
+              text: "Spring MVC",
+              link: "/interview_java/SSM/Spring_MVC.md",
+            },
+            {
+              text: "MyBatis",
+              link: "/interview_java/SSM/MyBatis.md",
+            },
+            {
+              text: "Spring Boot",
+              link: "/interview_java/SSM/Spring_Boot.md",
+            },
+          ],
+        },
+        {
+          text: "微服务",
+          items: [
+            {
+              text: "Radis",
+              link: "/interview_java/微服务/Radis.md",
+            },
+            {
+              text: "消息队列",
+              link: "/interview_java/微服务/消息队列.md",
+            },
+            {
+              text: "分布式",
+              link: "/interview_java/微服务/分布式.md",
+            },
+          ],
+        },
+      ],
+      "/question_java": [
+        {
+          text: "Java基础",
+          items: [
+            {
+              text: "Java基础",
+              link: "/question_java/Java基础/Java基础.md",
+            },
+          ],
+        },
+        {
+          text: "数据库",
+          items: [
+            {
+              text: "数据库",
+              link: "/question_java/数据库/数据库.md",
+            },
+          ],
+        },
+        {
+          text: "SSM",
+          items: [
+            {
+              text: "SSM",
+              link: "/question_java/SSM/SSM.md",
+            },
+          ],
+        },
+        {
+          text: "微服务",
+          items: [
+            {
+              text: "微服务",
+              link: "/question_java/微服务/微服务.md",
+            },
+          ],
+        },
+      ],
+
+      // computer
+      "/computer": [
+        {
+          text: "计算机网络",
+          items: [
+            {
+              text: "计算机网络(一)",
+              link: "/computer/计算机网络/计算机网络(一).md",
+            },
+            {
+              text: "计算机网络(二)",
+              link: "/computer/计算机网络/计算机网络(二).md",
+            },
+            {
+              text: "计算机网络(三)",
+              link: "/computer/计算机网络/计算机网络(三).md",
+            },
+          ],
+        },
+        {
+          text: "操作系统",
+          items: [
+            {
+              text: "操作系统(一)",
+              link: "/computer/操作系统/操作系统(一).md",
+            },
+            {
+              text: "操作系统(二)",
+              link: "/computer/操作系统/操作系统(二).md",
+            },
+            {
+              text: "操作系统(三)",
+              link: "/computer/操作系统/操作系统(三).md",
+            },
+          ],
+        },
+        {
+          text: "数据结构及算法",
+          items: [
+            {
+              text: "哈希",
+              link: "/computer/数据结构及算法/哈希.md",
+            },
+            {
+              text: "树",
+              link: "/computer/数据结构及算法/树.md",
+            },
+            {
+              text: "排序",
+              link: "/computer/数据结构及算法/排序.md",
+            },
+            {
+              text: "堆与栈",
+              link: "/computer/数据结构及算法/堆与栈.md",
+            },
+            {
+              text: "高级算法",
+              link: "/computer/数据结构及算法/高级算法.md",
+            },
+          ],
+        },
+        {
+          text: "设计模式",
+          items: [
+            {
+              text: "设计模式",
+              link: "/computer/设计模式/设计模式.md",
             },
           ],
         },
