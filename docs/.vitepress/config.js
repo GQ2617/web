@@ -77,12 +77,12 @@ export default {
         items: [
           {
             text: "💡 面试专题",
-            activeMatch: "/interview",
+            activeMatch: "/interview_java",
             link: "/interview_java/Java基础/Java基础.md",
           },
           {
             text: "🛠️ 开发问题集合",
-            activeMatch: "/question",
+            activeMatch: "/question_java",
             link: "/question_java/Java基础/Java基础.md",
           },
         ],
@@ -397,8 +397,8 @@ export default {
           text: "微服务",
           items: [
             {
-              text: "Radis",
-              link: "/interview_java/微服务/Radis.md",
+              text: "Redis",
+              link: "/interview_java/微服务/Redis.md",
             },
             {
               text: "消息队列",
