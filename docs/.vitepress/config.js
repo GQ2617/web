@@ -1,7 +1,7 @@
 export default {
   title: "Java&Web",
   base: "/web/",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
   themeConfig: {
     // siteTitle: false,
