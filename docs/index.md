@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /interview/前端基础/HTML.md
+      link: /Web/interview/前端框架/Vue.md
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/GQ2617/web

@@ -1,10 +1,12 @@
 export default {
   title: "Java&Web",
-  base: "/web/",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  base: "/Java&Web/",
+  head: [["link", { rel: "icon", href: "/Java&Web/favicon.ico" }]],
 
   themeConfig: {
     // siteTitle: false,
+    // 目录层级
+    outline: [1, 3],
     logo: "/logo.png",
     algolia: {
       appId: "FRTY16QQO9", // 需要替换
@@ -56,19 +58,19 @@ export default {
         text: "💡 web专题",
         items: [
           {
-            text: "💡 面试专题",
-            activeMatch: "/interview",
-            link: "/interview/前端框架/Vue.md",
+            text: "💡 函数工具库",
+            activeMatch: "/tools",
+            link: "/Web/tools/函数相关/this指向.md",
           },
           {
-            text: "📦 函数工具库",
-            activeMatch: "/tools",
-            link: "/tools/函数相关/this指向.md",
+            text: "📦 面试专题",
+            activeMatch: "/interview",
+            link: "/Web/interview/前端框架/Vue.md",
           },
           {
             text: "🛠️ 开发问题集合",
             activeMatch: "/question",
-            link: "/question/框架/Vue.md",
+            link: "/Web/question/框架/Vue.md",
           },
         ],
       },
@@ -76,52 +78,43 @@ export default {
         text: "💡 Java专题",
         items: [
           {
-            text: "💡 面试专题",
-            activeMatch: "/interview_java",
-            link: "/interview_java/Java基础/Java基础.md",
+            text: "💡 学习笔记",
+            activeMatch: "/note_java",
+            link: "/Java/note_java/基础阶段/JavaSE.md",
           },
+          {
+            text: "📦 面试专题",
+            activeMatch: "/interview_java",
+            link: "/Java/interview_java/Java基础/Java基础.md",
+          },
+
           {
             text: "🛠️ 开发问题集合",
             activeMatch: "/question_java",
-            link: "/question_java/Java基础/Java基础.md",
+            link: "/Java/question_java/Java基础/Java基础.md",
           },
         ],
       },
       {
         text: "💡 计算机基础",
-        items: [
-          {
-            text: "💡 计算机网络",
-            activeMatch: "/computer",
-            link: "/computer/计算机网络/计算机网络(一).md",
-          },
-          {
-            text: "📦 操作系统",
-            activeMatch: "/computer",
-            link: "/computer/操作系统/操作系统(一).md",
-          },
-          {
-            text: "🛠️ 数据结构及算法",
-            activeMatch: "/computer",
-            link: "/computer/数据结构及算法/哈希.md",
-          },
-          {
-            text: "💡 设计模式",
-            activeMatch: "/computer",
-            link: "/computer/设计模式/设计模式.md",
-          },
-        ],
+        activeMatch: "/Computer",
+        link: "/Computer/计算机网络/计算机网络(一).md",
+      },
+      {
+        text: "💡 LeetCode算法",
+        activeMatch: "/LeetCode",
+        link: "/LeetCode/简易/1.两数之和.md",
       },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/GQ2617/web" },
       { icon: "facebook", link: "https://github.com/GQ2617/web" },
-      { icon: "twitter", link: "https://github.com/GQ2617/web" },
+      { icon: "twitter", link: "https://twitter.com/w26177" },
     ],
 
     sidebar: {
       // web
-      "/tools/": [
+      "/Web/tools/": [
         {
           text: "函数相关",
           // collapsible: true,
@@ -129,11 +122,11 @@ export default {
           items: [
             {
               text: "this指向",
-              link: "/tools/函数相关/this指向.md",
+              link: "/Web/tools/函数相关/this指向.md",
             },
             {
               text: "防抖节流",
-              link: "/tools/函数相关/防抖节流.md",
+              link: "/Web/tools/函数相关/防抖节流.md",
             },
           ],
         },
@@ -142,20 +135,20 @@ export default {
           items: [
             {
               text: "数组系列方法",
-              link: "/tools/数组相关/数组系列方法.md",
+              link: "/Web/tools/数组相关/数组系列方法.md",
             },
             {
               text: "数组去重",
-              link: "/tools/数组相关/数组去重.md",
+              link: "/Web/tools/数组相关/数组去重.md",
             },
             {
               text: "数组合并与切片",
-              link: "/tools/数组相关/数组合并与切片.md",
+              link: "/Web/tools/数组相关/数组合并与切片.md",
             },
 
             {
               text: "数组扁平化",
-              link: "/tools/数组相关/数组扁平化.md",
+              link: "/Web/tools/数组相关/数组扁平化.md",
             },
           ],
         },
@@ -164,19 +157,19 @@ export default {
           items: [
             {
               text: "自定义new",
-              link: "/tools/对象相关/自定义new.md",
+              link: "/Web/tools/对象相关/自定义new.md",
             },
             {
               text: "自定义instanceof",
-              link: "/tools/对象相关/自定义instanceof.md",
+              link: "/Web/tools/对象相关/自定义instanceof.md",
             },
             {
               text: "合并多个对象",
-              link: "/tools/对象相关/合并多个对象.md",
+              link: "/Web/tools/对象相关/合并多个对象.md",
             },
             {
               text: "深/浅拷贝",
-              link: "/tools/对象相关/深浅拷贝.md",
+              link: "/Web/tools/对象相关/深浅拷贝.md",
             },
           ],
         },
@@ -185,31 +178,31 @@ export default {
           items: [
             {
               text: "字符串倒序",
-              link: "/tools/字符串相关/字符串倒序.md",
+              link: "/Web/tools/字符串相关/字符串倒序.md",
             },
             {
               text: "截取字符串",
-              link: "/tools/字符串相关/截取字符串.md",
+              link: "/Web/tools/字符串相关/截取字符串.md",
             },
           ],
         },
       ],
-      "/interview/": [
+      "/Web/interview/": [
         {
           text: "前端基础",
           items: [
             // SidebarItem
             {
               text: "HTML",
-              link: "/interview/前端基础/HTML.md",
+              link: "/Web/interview/前端基础/HTML.md",
             },
             {
               text: "CSS",
-              link: "/interview/前端基础/CSS.md",
+              link: "/Web/interview/前端基础/CSS.md",
             },
             {
               text: "JavaScript",
-              link: "/interview/前端基础/JavaScript.md",
+              link: "/Web/interview/前端基础/JavaScript.md",
             },
           ],
         },
@@ -218,19 +211,19 @@ export default {
           items: [
             {
               text: "Vue",
-              link: "/interview/前端框架/Vue.md",
+              link: "/Web/interview/前端框架/Vue.md",
             },
             {
               text: "React",
-              link: "/interview/前端框架/React.md",
+              link: "/Web/interview/前端框架/React.md",
             },
             {
               text: "Uniapp",
-              link: "/interview/前端框架/Uniapp.md",
+              link: "/Web/interview/前端框架/Uniapp.md",
             },
             {
               text: "微信小程序",
-              link: "/interview/前端框架/微信小程序.md",
+              link: "/Web/interview/前端框架/微信小程序.md",
             },
           ],
         },
@@ -239,23 +232,23 @@ export default {
           items: [
             {
               text: "HTTP",
-              link: "/interview/前端进阶/HTTP.md",
+              link: "/Web/interview/前端进阶/HTTP.md",
             },
             {
               text: "浏览器",
-              link: "/interview/前端进阶/浏览器.md",
+              link: "/Web/interview/前端进阶/浏览器.md",
             },
             // {
             //   text: "Node",
-            //   link: "/interview/前端进阶/Node.md",
+            //   link: "/Web/interview/前端进阶/Node.md",
             // },
             // {
             //   text: "移动端",
-            //   link: "/interview/前端进阶/移动端.md",
+            //   link: "/Web/interview/前端进阶/移动端.md",
             // },
             {
               text: "性能",
-              link: "/interview/前端进阶/性能.md",
+              link: "/Web/interview/前端进阶/性能.md",
             },
           ],
         },
@@ -265,30 +258,30 @@ export default {
             // SidebarItem
             {
               text: "Git",
-              link: "/interview/前端工具/Git.md",
+              link: "/Web/interview/前端工具/Git.md",
             },
             {
               text: "Webpack",
-              link: "/interview/前端工具/Webpack.md",
+              link: "/Web/interview/前端工具/Webpack.md",
             },
           ],
         },
       ],
-      "/question/": [
+      "/Web/question/": [
         {
           text: "快速开发",
           items: [
             {
               text: "HTML",
-              link: "/question/快速开发/HTML.md",
+              link: "/Web/question/快速开发/HTML.md",
             },
             {
               text: "CSS",
-              link: "/question/快速开发/CSS.md",
+              link: "/Web/question/快速开发/CSS.md",
             },
             {
               text: "JavaScript",
-              link: "/question/快速开发/JavaScript.md",
+              link: "/Web/question/快速开发/JavaScript.md",
             },
           ],
         },
@@ -297,15 +290,15 @@ export default {
           items: [
             {
               text: "Vue",
-              link: "/question/框架/Vue.md",
+              link: "/Web/question/框架/Vue.md",
             },
             {
               text: "React",
-              link: "/question/框架/React.md",
+              link: "/Web/question/框架/React.md",
             },
             {
               text: "微信小程序",
-              link: "/question/框架/微信小程序.md",
+              link: "/Web/question/框架/微信小程序.md",
             },
           ],
         },
@@ -314,40 +307,40 @@ export default {
           items: [
             {
               text: "Element-UI",
-              link: "/question/UI库/Element-UI.md",
+              link: "/Web/question/UI库/Element-UI.md",
             },
             {
               text: "Ant-Design",
-              link: "/question/UI库/Ant-Design.md",
+              link: "/Web/question/UI库/Ant-Design.md",
             },
           ],
         },
       ],
 
       // java
-      "/interview_java": [
+      "/Java/interview_java": [
         {
-          text: "Java语言",
+          text: "Java基础",
           items: [
             {
               text: "基础",
-              link: "/interview_java/Java基础/Java基础.md",
+              link: "/Java/interview_java/Java基础/Java基础.md",
             },
             {
               text: "集合类",
-              link: "/interview_java/Java基础/集合类.md",
+              link: "/Java/interview_java/Java基础/集合类.md",
             },
             {
               text: "多线程",
-              link: "/interview_java/Java基础/多线程.md",
+              link: "/Java/interview_java/Java基础/多线程.md",
             },
             {
               text: "IO",
-              link: "/interview_java/Java基础/IO.md",
+              link: "/Java/interview_java/Java基础/IO.md",
             },
             {
               text: "JVM",
-              link: "/interview_java/Java基础/JVM.md",
+              link: "/Java/interview_java/Java基础/JVM.md",
             },
           ],
         },
@@ -356,19 +349,19 @@ export default {
           items: [
             {
               text: "SQL",
-              link: "/interview_java/数据库/SQL.md",
+              link: "/Java/interview_java/数据库/SQL.md",
             },
             {
               text: "索引",
-              link: "/interview_java/数据库/索引.md",
+              link: "/Java/interview_java/数据库/索引.md",
             },
             {
               text: "事务",
-              link: "/interview_java/数据库/事务.md",
+              link: "/Java/interview_java/数据库/事务.md",
             },
             {
               text: "优化",
-              link: "/interview_java/数据库/优化.md",
+              link: "/Java/interview_java/数据库/优化.md",
             },
           ],
         },
@@ -377,19 +370,19 @@ export default {
           items: [
             {
               text: "Spring",
-              link: "/interview_java/SSM/Spring.md",
+              link: "/Java/interview_java/SSM/Spring.md",
             },
             {
               text: "Spring MVC",
-              link: "/interview_java/SSM/Spring_MVC.md",
+              link: "/Java/interview_java/SSM/Spring_MVC.md",
             },
             {
               text: "MyBatis",
-              link: "/interview_java/SSM/MyBatis.md",
+              link: "/Java/interview_java/SSM/MyBatis.md",
             },
             {
               text: "Spring Boot",
-              link: "/interview_java/SSM/Spring_Boot.md",
+              link: "/Java/interview_java/SSM/Spring_Boot.md",
             },
           ],
         },
@@ -398,26 +391,96 @@ export default {
           items: [
             {
               text: "Redis",
-              link: "/interview_java/微服务/Redis.md",
+              link: "/Java/interview_java/微服务/Redis.md",
             },
             {
               text: "消息队列",
-              link: "/interview_java/微服务/消息队列.md",
+              link: "/Java/interview_java/微服务/消息队列.md",
             },
             {
               text: "分布式",
-              link: "/interview_java/微服务/分布式.md",
+              link: "/Java/interview_java/微服务/分布式.md",
             },
           ],
         },
       ],
-      "/question_java": [
+      "/Java/note_java": [
+        {
+          text: "基础阶段",
+          items: [
+            {
+              text: "JavaSE",
+              link: "/Java/note_java/基础阶段/JavaSE.md",
+            },
+            {
+              text: "MySQL",
+              link: "/Java/note_java/基础阶段/MySQL.md",
+            },
+            {
+              text: "JDBC",
+              link: "/Java/note_java/基础阶段/JDBC.md",
+            },
+          ],
+        },
+        {
+          text: "提升阶段",
+          items: [
+            {
+              text: "JavaEE",
+              link: "/Java/note_java/提升阶段/JavaEE.md",
+            },
+            {
+              text: "Spring",
+              link: "/Java/note_java/提升阶段/Spring.md",
+            },
+            {
+              text: "SpringMVC",
+              link: "/Java/note_java/提升阶段/SpringMVC.md",
+            },
+            {
+              text: "MyBatis",
+              link: "/Java/note_java/提升阶段/MyBatis.md",
+            },
+            {
+              text: "SSM整合",
+              link: "/Java/note_java/提升阶段/SSM整合.md",
+            },
+          ],
+        },
+        {
+          text: "进阶阶段",
+          items: [
+            {
+              text: "SpringBoot",
+              link: "/Java/note_java/进阶阶段/SpringBoot.md",
+            },
+            {
+              text: "SpringCloud",
+              link: "/Java/note_java/进阶阶段/SpringCloud.md",
+            },
+          ],
+        },
+        {
+          text: "设计模式",
+          items: [
+            {
+              text: "设计原则",
+              link: "/Java/note_java/设计模式/设计模式六大原则.md",
+            },
+            {
+              text: "设计模式",
+              link: "/Java/note_java/设计模式/23种设计模式.md",
+            },
+          ],
+        },
+      ],
+      "Java/question_java": [
         {
           text: "Java基础",
           items: [
             {
               text: "Java基础",
-              link: "/question_java/Java基础/Java基础.md",
+              link: "/Java/question_java/Java基础/Java基础.md",
             },
           ],
         },
@@ -426,7 +489,7 @@ export default {
           items: [
             {
               text: "数据库",
-              link: "/question_java/数据库/数据库.md",
+              link: "/Java/question_java/数据库/数据库.md",
             },
           ],
         },
@@ -435,7 +498,7 @@ export default {
           items: [
             {
               text: "SSM",
-              link: "/question_java/SSM/SSM.md",
+              link: "/Java/question_java/SSM/SSM.md",
             },
           ],
         },
@@ -444,28 +507,28 @@ export default {
           items: [
             {
               text: "微服务",
-              link: "/question_java/微服务/微服务.md",
+              link: "/Java/question_java/微服务/微服务.md",
             },
           ],
         },
       ],
 
       // computer
-      "/computer": [
+      "/Computer": [
         {
           text: "计算机网络",
           items: [
             {
               text: "计算机网络(一)",
-              link: "/computer/计算机网络/计算机网络(一).md",
+              link: "/Computer/计算机网络/计算机网络(一).md",
             },
             {
               text: "计算机网络(二)",
-              link: "/computer/计算机网络/计算机网络(二).md",
+              link: "/Computer/计算机网络/计算机网络(二).md",
             },
             {
               text: "计算机网络(三)",
-              link: "/computer/计算机网络/计算机网络(三).md",
+              link: "/Computer/计算机网络/计算机网络(三).md",
             },
           ],
         },
@@ -474,15 +537,15 @@ export default {
           items: [
             {
               text: "操作系统(一)",
-              link: "/computer/操作系统/操作系统(一).md",
+              link: "/Computer/操作系统/操作系统(一).md",
             },
             {
               text: "操作系统(二)",
-              link: "/computer/操作系统/操作系统(二).md",
+              link: "/Computer/操作系统/操作系统(二).md",
             },
             {
               text: "操作系统(三)",
-              link: "/computer/操作系统/操作系统(三).md",
+              link: "/Computer/操作系统/操作系统(三).md",
             },
           ],
         },
@@ -491,32 +554,138 @@ export default {
           items: [
             {
               text: "哈希",
-              link: "/computer/数据结构及算法/哈希.md",
+              link: "/Computer/数据结构及算法/哈希.md",
             },
             {
               text: "树",
-              link: "/computer/数据结构及算法/树.md",
+              link: "/Computer/数据结构及算法/树.md",
             },
             {
               text: "排序",
-              link: "/computer/数据结构及算法/排序.md",
+              link: "/Computer/数据结构及算法/排序.md",
             },
             {
               text: "堆与栈",
-              link: "/computer/数据结构及算法/堆与栈.md",
+              link: "/Computer/数据结构及算法/堆与栈.md",
             },
             {
               text: "高级算法",
-              link: "/computer/数据结构及算法/高级算法.md",
+              link: "/Computer/数据结构及算法/高级算法.md",
+            },
+          ],
+        },
+      ],
+
+      // leetcode
+      "/LeetCode": [
+        {
+          text: "简易",
+          items: [
+            {
+              text: "1. 两数之和",
+              link: "/LeetCode/简易/1.两数之和",
+            },
+            {
+              text: "2. 回文数",
+              link: "/LeetCode/简易/2.回文数",
+            },
+            {
+              text: "3. 罗马数字转整数",
+              link: "/LeetCode/简易/3.罗马数字转整数",
+            },
+            {
+              text: "4. 最长公共前缀",
+              link: "/LeetCode/简易/4.最长公共前缀",
+            },
+            {
+              text: "5. 有效的括号",
+              link: "/LeetCode/简易/5.有效的括号",
+            },
+            {
+              text: "6. 合并两个有序链表",
+              link: "/LeetCode/简易/6. 合并两个有序链表",
+            },
+            {
+              text: "7. 删除有序数组中的重复项",
+              link: "/LeetCode/简易/7.删除有序数组中的重复项",
+            },
+            {
+              text: "8. 移除元素",
+              link: "/LeetCode/简易/8.移除元素",
             },
           ],
         },
         {
-          text: "设计模式",
+          text: "中等",
           items: [
             {
-              text: "设计模式",
-              link: "/computer/设计模式/设计模式.md",
+              text: "1. 两数相加",
+              link: "/LeetCode/中等/1.两数相加",
+            },
+            {
+              text: "2. 无重复字符的最长子串",
+              link: "/LeetCode/中等/2.无重复字符的最长子串",
+            },
+            {
+              text: "3. 最长回文子串",
+              link: "/LeetCode/中等/3.最长回文子串",
+            },
+            {
+              text: "4. N 字形变换",
+              link: "/LeetCode/中等/4.N 字形变换",
+            },
+            {
+              text: "5. 整数反转",
+              link: "/LeetCode/中等/5.整数反转",
+            },
+            {
+              text: "6. 字符串转换整数 (atoi)",
+              link: "/LeetCode/中等/6. 字符串转换整数 (atoi)",
+            },
+            {
+              text: "7. 盛最多水的容器",
+              link: "/LeetCode/中等/7.盛最多水的容器",
+            },
+            {
+              text: "8. 整数转罗马数字",
+              link: "/LeetCode/中等/8.整数转罗马数字",
+            },
+          ],
+        },
+        {
+          text: "困难",
+          items: [
+            {
+              text: "1. 寻找两个正序数组的中位数",
+              link: "/LeetCode/简易/1.寻找两个正序数组的中位数",
+            },
+            {
+              text: "2. 正则表达式匹配",
+              link: "/LeetCode/简易/2.正则表达式匹配",
+            },
+            {
+              text: "3. 合并K个升序链表",
+              link: "/LeetCode/简易/3.合并K个升序链表",
+            },
+            {
+              text: "4. K 个一组翻转链表",
+              link: "/LeetCode/简易/4.K 个一组翻转链表",
+            },
+            {
+              text: "5. 串联所有单词的子串",
+              link: "/LeetCode/简易/5.串联所有单词的子串",
+            },
+            {
+              text: "6. 最长有效括号",
+              link: "/LeetCode/简易/6. 最长有效括号",
+            },
+            {
+              text: "7. 解数独",
+              link: "/LeetCode/简易/7.解数独",
+            },
+            {
+              text: "8. 缺失的第一个正数",
+              link: "/LeetCode/简易/8.缺失的第一个正数",
             },
           ],
         },
