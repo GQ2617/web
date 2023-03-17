@@ -1,6 +1,6 @@
 {
   "index_name": "web-search",
-  "start_urls": ["https://gq2617.github.io/Java&Web"], 
+  "start_urls": ["https://gq2617.github.io/web"], 
   "rateLimit": 8,
   "maxDepth": 10,
   "selectors": {
