@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "element-plus": "^2.2.29",
-    "nprogress": "^0.2.0"
+    "nprogress": "^0.2.0",
+    "gitalk": "git://github.com/lesonky/gitalk.git"
   }
 }

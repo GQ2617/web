@@ -12,6 +12,12 @@
     --vp-c-bg-alt: #161618;
 }
 
+/* 评论 */
+.gt-container .gt-header-textarea{
+    background-color: var(--vp-c-brand-dimm) !important;
+}
+
+
 /* 侧边栏选中样式 */
 .VPSidebarItem.level-1.is-link {
     padding-left: 15px;

@@ -1,5 +1,5 @@
 export default {
-  title: "Java&Web",
+  title: "Full Stack",
   base: "/web/",
   head: [["link", { rel: "icon", href: "/web/favicon.ico" }]],
 

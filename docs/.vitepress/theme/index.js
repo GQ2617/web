@@ -12,9 +12,11 @@ import globals from "../client";
 import { useRouter } from "vitepress";
 import { watch, nextTick } from "vue";
 import "./style.css";
+import Comment from "../components/Comment.vue";
 
 export default {
   ...DefaultTheme,
+  Layout: Comment,
   enhanceApp: async ({ app }) => {
     // app.use(ElementPlus);
     // 注册组件库组件
