@@ -55,6 +55,11 @@ export default {
     },
     nav: [
       {
+        text: "💡 指南",
+        activeMatch: "/Guide",
+        link: "/Guide/guide.md",
+      },
+      {
         text: "💡 web专题",
         items: [
           {
@@ -113,6 +118,92 @@ export default {
     ],
 
     sidebar: {
+      "/Guide/guide": [
+        {
+          text: "Web专题",
+          items: [
+            {
+              text: "函数工具库",
+              activeMatch: "/tools",
+              link: "/Web/tools/函数相关/this指向.md",
+            },
+            {
+              text: "面试专题",
+              activeMatch: "/interview",
+              link: "/Web/interview/前端框架/Vue.md",
+            },
+            {
+              text: "开发问题集合",
+              activeMatch: "/question",
+              link: "/Web/question/框架/Vue.md",
+            },
+          ],
+        },
+        {
+          text: "Java专题",
+          items: [
+            {
+              text: "学习笔记",
+              activeMatch: "/note_java",
+              link: "/Java/note_java/基础阶段/JavaSE.md",
+            },
+            {
+              text: "面试专题",
+              activeMatch: "/interview_java",
+              link: "/Java/interview_java/Java基础/Java基础.md",
+            },
+
+            {
+              text: "开发问题集合",
+              activeMatch: "/question_java",
+              link: "/Java/question_java/Java基础/Java基础.md",
+            },
+          ],
+        },
+        {
+          text: "计算机基础",
+          items: [
+            {
+              text: "计算机网路",
+              activeMatch: "/note_java",
+              link: "/Java/note_java/基础阶段/JavaSE.md",
+            },
+            {
+              text: "操作系统",
+              activeMatch: "/interview_java",
+              link: "/Java/interview_java/Java基础/Java基础.md",
+            },
+
+            {
+              text: "数据结构",
+              activeMatch: "/question_java",
+              link: "/Java/question_java/Java基础/Java基础.md",
+            },
+          ],
+        },
+        {
+          text: "LeetCode",
+          items: [
+            {
+              text: "题目描述",
+              activeMatch: "/note_java",
+              link: "/Java/note_java/基础阶段/JavaSE.md",
+            },
+            {
+              text: "Java解法",
+              activeMatch: "/interview_java",
+              link: "/Java/interview_java/Java基础/Java基础.md",
+            },
+
+            {
+              text: "JavaScript解法",
+              activeMatch: "/question_java",
+              link: "/Java/question_java/Java基础/Java基础.md",
+            },
+          ],
+        },
+      ],
+
       // web
       "/Web/tools/": [
         {
