@@ -6,7 +6,7 @@ title: Java&Web
 
 hero:
   name: Full Stack
-  text: Java&Web知识汇总
+  text: Web&Java知识汇总
   tagline: 集成面试、工具库、Bug详解，竭诚助力开发者
   image:
     src: /logo.png
@@ -21,14 +21,12 @@ hero:
 
 features:
   - icon: 💡
-    title: 面试专题
-    details: 八股文汇总及面试详解
+    title: Web&Java
+    details: Web及Java笔记及相关面试题解
   - icon: 📦
-    title: 函数工具库
-    details: 自定义函数工具库，如：防抖节流
+    title: 计算机基础
+    details: 计网、操作系统、数据结构相关知识
   - icon: 🛠️
-    title: 开发问题集合
-    details: 实际开发所遇问题集合汇总
+    title: LeetCode算法
+    details: 算法合集，给予Java和JavaScript题解
 ---
-
-
