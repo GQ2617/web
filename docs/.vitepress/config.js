@@ -309,10 +309,6 @@ export default {
               link: "/Web/interview/前端框架/React.md",
             },
             {
-              text: "Uniapp",
-              link: "/Web/interview/前端框架/Uniapp.md",
-            },
-            {
               text: "微信小程序",
               link: "/Web/interview/前端框架/微信小程序.md",
             },
@@ -693,16 +689,64 @@ export default {
               link: "/LeetCode/简易/5.有效的括号",
             },
             {
-              text: "6. 合并两个有序链表",
-              link: "/LeetCode/简易/6. 合并两个有序链表",
+              text: "6. 删除有序数组中的重复项",
+              link: "/LeetCode/简易/6.删除有序数组中的重复项",
             },
             {
-              text: "7. 删除有序数组中的重复项",
-              link: "/LeetCode/简易/7.删除有序数组中的重复项",
+              text: "7. 移除元素",
+              link: "/LeetCode/简易/7.移除元素",
             },
             {
-              text: "8. 移除元素",
-              link: "/LeetCode/简易/8.移除元素",
+              text: "8. 搜索插入位置",
+              link: "/LeetCode/简易/8.搜索插入位置",
+            },
+            {
+              text: "9. 最后一个单词的长度",
+              link: "/LeetCode/简易/9.最后一个单词的长度",
+            },
+            {
+              text: "10. 加一",
+              link: "/LeetCode/简易/10.加一",
+            },
+            {
+              text: "11. 二进制求和",
+              link: "/LeetCode/简易/11.二进制求和",
+            },
+            {
+              text: "12. x的平方根",
+              link: "/LeetCode/简易/12.x的平方根",
+            },
+            {
+              text: "13. 爬楼梯",
+              link: "/LeetCode/简易/13.爬楼梯",
+            },
+            {
+              text: "14. 删除排序链表中的重复元素",
+              link: "/LeetCode/简易/14.删除排序链表中的重复元素",
+            },
+            {
+              text: "15. 合并两个有序数组",
+              link: "/LeetCode/简易/15.合并两个有序数组",
+            },
+            {
+              text: "16. 二叉树的中序遍历",
+              link: "/LeetCode/简易/16.二叉树的中序遍历",
+            },
+            {
+              text: "17. 相同的树",
+              link: "/LeetCode/简易/17.相同的树",
+            },
+            {
+              text: "18. 对称二叉树",
+              link: "/LeetCode/简易/18.对称二叉树",
+            },
+            {
+              text: "19. 二叉树的最大深度",
+              link: "/LeetCode/简易/19.二叉树的最大深度",
+            },
+            {
+              text: "20. 二叉树的最小深度",
+              link: "/LeetCode/简易/20.二叉树的最小深度",
             },
           ],
         },
@@ -723,23 +767,11 @@ export default {
             },
             {
               text: "4. N 字形变换",
-              link: "/LeetCode/中等/4.N 字形变换",
+              link: "/LeetCode/中等/4.N字形变换",
             },
             {
               text: "5. 整数反转",
               link: "/LeetCode/中等/5.整数反转",
-            },
-            {
-              text: "6. 字符串转换整数 (atoi)",
-              link: "/LeetCode/中等/6. 字符串转换整数 (atoi)",
-            },
-            {
-              text: "7. 盛最多水的容器",
-              link: "/LeetCode/中等/7.盛最多水的容器",
-            },
-            {
-              text: "8. 整数转罗马数字",
-              link: "/LeetCode/中等/8.整数转罗马数字",
             },
           ],
         },
